@@ -1,0 +1,12 @@
+[package]
+name = "tod19"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+borsh = { version = "1.5.5", features = ["derive"] }
+sha2 = "0.10.8"
+solana-program = "2.2.1"
+
+[lib]
+crate-type = ["cdylib", "lib"]
